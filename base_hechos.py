@@ -1,0 +1,20 @@
+hechos = {
+    "fiebre": False,
+    "tos": False,
+    "dolor_cabeza": False,
+    "cansancio": False,
+    "estornudos": False,
+    "dolor_garganta": False,
+    "nauseas": False,
+    "dificultad_respirar": False,
+    "dolor_muscular": False,
+    "escalofrios": False,
+    "perdida_olfato": False,
+    "perdida_gusto": False,
+    "diarrea": False,
+    "vomito": False,
+    "ojos_llorosos": False,
+    "picazon_nariz": False,
+    "dolor_pecho": False,
+    "sudoracion": False
+}

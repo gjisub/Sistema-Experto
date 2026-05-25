@@ -1,0 +1,56 @@
+[
+  {
+    "fecha": "24/05/2026 21:45",
+    "sintomas": [
+      "fiebre",
+      "tos",
+      "dolor_cabeza",
+      "cansancio",
+      "estornudos",
+      "dolor_garganta",
+      "ojos_llorosos"
+    ],
+    "diagnosticos": [
+      "Gripe",
+      "Angina",
+      "Resfriado"
+    ],
+    "detalles": [
+      {
+        "regla": "R1",
+        "nombre": "Gripe",
+        "recomendacion": "Reposo, líquidos y paracetamol. Visita al médico si persiste más de 5 días."
+      },
+      {
+        "regla": "R6",
+        "nombre": "Angina",
+        "recomendacion": "Antibióticos recetados por médico. No automedicarse."
+      },
+      {
+        "regla": "R2",
+        "nombre": "Resfriado Común",
+        "recomendacion": "Reposo, vitamina C y mucha agua. Suele pasar en 7-10 días."
+      }
+    ]
+  },
+  {
+    "fecha": "24/05/2026 22:40",
+    "sintomas": [
+      "fiebre",
+      "dolor_cabeza",
+      "cansancio",
+      "dolor_muscular",
+      "ojos_llorosos"
+    ],
+    "diagnosticos": [
+      "Agotamiento"
+    ],
+    "detalles": [
+      {
+        "regla": "R10",
+        "nombre": "Agotamiento",
+        "recomendacion": "Descanso, hidratación y alimentación balanceada."
+      }
+    ]
+  }
+]
