@@ -1,8 +1,6 @@
 def ejecutar_motor(hechos, reglas):
     conclusiones = []
     explicaciones = []
-
-    # Ordenar reglas por prioridad (mayor primero)
     reglas_ordenadas = sorted(reglas, key=lambda r: r["prioridad"], reverse=True)
 
     for regla in reglas_ordenadas:
@@ -26,8 +24,6 @@ def ejecutar_motor(hechos, reglas):
             })
 
     return conclusiones, explicaciones
-
-
 def calcular_certeza(explicacion, total_sintomas_activos):
     sintomas_usados = len(explicacion["hechos_and"]) + len(explicacion["hechos_or"])
     if total_sintomas_activos == 0:
